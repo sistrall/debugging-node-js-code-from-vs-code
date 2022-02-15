@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "runtimeVersion": "16.13.1",
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Example 2",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/example-2/index.js"
+    },
+    {
+      "name": "Attach to the already running Example 3",
+      "port": 9229,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "pwa-node"
+    },
+    {
+      "name": "Attach to Example 4 running server",
+      "port": 9229,
+      "request": "attach",
+      "type": "pwa-node"
+    },
+    {
+      "name": "Attach to Example 5: server running on Docker",
+      "port": 9339,
+      "request": "attach",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node",
+      "remoteRoot": "/usr/src/app" 
+    }  
+  ]
+}

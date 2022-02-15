@@ -1,0 +1,11 @@
+{
+  "name": "debugging-node-js-code-from-vs-code",
+  "version": "1.0.0",
+  "description": "Examples to learn how to debug Node.js apps in different situations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
